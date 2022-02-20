@@ -1,3 +1,5 @@
+/*create: 2022 02 20
+Owner: Nuwan Wijeweera */
 public class Welcome { // this define the class
     public static void main(String[] args) { // this define the main metod
         System.out.print("Welcome to "); // print in multiple statesment
