@@ -8,7 +8,7 @@ public class Welcome { // this define the class
     }// end of main method
 
     public static void printnext() {        //define another method
-        System.out.println("Print this Using another method in java.");
+        System.out.println("Print this \nUsing another method in java."); //print multiple lines in a single statement
     }       //end the printnext method
 
 } // end of Welcome class
