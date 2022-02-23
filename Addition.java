@@ -1,4 +1,3 @@
-
 /*create: 2022 02 20
 Owner: Nuwan Wijeweera */
 import java.util.Scanner; // import scanner class
