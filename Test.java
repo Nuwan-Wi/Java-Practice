@@ -10,18 +10,18 @@ class Test {
 //         System.out.println(i);
 //    } 
 
-    String s;
-    int x;
+    // String s;
+    // int x;
 
-    Test(String s, int x){
-        this.s = s;
-        this.x = x;
-    }
-    Show(){
-        System.out.println(s+"No"+x);
-    }
-    public void main(String[] args) {
+    // Test(String s, int x){
+    //     this.s = s;
+    //     this.x = x;
+    // }
+    // Show(){
+    //     System.out.println(s+"No"+x);
+    // }
+    // public void main(String[] args) {
         
-    }
+    // }
 
 }

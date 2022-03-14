@@ -1,5 +1,5 @@
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class FindVolume {
     // public static void main(String[] args){
@@ -24,19 +24,19 @@ public class FindVolume {
 
     // }
 
-    int lenth, hight;
-    FindVolume(int x, int y){
-        lenth = x;
-        hight = y;
-        area(lenth, hight);
-    }
-    static void area(int len, int hig){
-        System.out.println("Area = "+ (len*hig));
-    }
-    public static void main(String[] args) {
-        new FindVolume(3, 5);
+    // int lenth, hight;
+    // FindVolume(int x, int y){
+    //     lenth = x;
+    //     hight = y;
+    //     area(lenth, hight);
+    // }
+    // static void area(int len, int hig){
+    //     System.out.println("Area = "+ (len*hig));
+    // }
+    // public static void main(String[] args) {
+    //     new FindVolume(3, 5);
     
-    }
+    // }
 
 
 }
