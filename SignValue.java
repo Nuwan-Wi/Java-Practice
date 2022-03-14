@@ -11,5 +11,7 @@ public class SignValue {
             System.out.println("Value is a possitive number");
         else
             System.out.println("Value is negetive number");
+
+        input.close();
     }    
 }

@@ -19,6 +19,8 @@ public class Comparison {
         if (num1 > num2)
             System.out.printf("%d > %d%n", num1, num2);
         if (num1 < num2)
-            System.out.printf("%d < %d%n", num1, num2);        
+            System.out.printf("%d < %d%n", num1, num2);   
+        
+        input.close();
     }
 }

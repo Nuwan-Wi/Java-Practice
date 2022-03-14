@@ -19,20 +19,20 @@ public class CalMethod {
     }
 
     public static void main(String[] args){
-        Scanner value = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         int num1;
         int num2;
         String oper;
 
         System.out.print("Enter 1st number: ");
-        num1 = value.nextInt();
+        num1 = input.nextInt();
 
         System.out.print("Enter 2nd Number: ");
-        num2 = value.nextInt();
+        num2 = input.nextInt();
 
         System.out.print("Operation: ");
-        oper = value.next();
+        oper = input.next();
 
         if (oper.equals("+"))
             System.out.println("Answer = " + add(num1,num2));
@@ -48,6 +48,7 @@ public class CalMethod {
 
         else 
             System.out.println("Operation Invalied");
+            input.close();
     
     }
 }

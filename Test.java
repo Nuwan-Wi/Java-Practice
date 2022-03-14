@@ -1,4 +1,4 @@
-public class Test {
+class Test {
     // public static void main(String args[]) {
     //     int a = 5;
     //     int p = a += 2 + --a;
@@ -10,7 +10,17 @@ public class Test {
 //         System.out.println(i);
 //    } 
 
-    public static void main(String[] args) {
+    String s;
+    int x;
+
+    Test(String s, int x){
+        this.s = s;
+        this.x = x;
+    }
+    Show(){
+        System.out.println(s+"No"+x);
+    }
+    public void main(String[] args) {
         
     }
 

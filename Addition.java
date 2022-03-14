@@ -21,6 +21,7 @@ public static void main(String[] args){
 
     System.out.println(num1 + "+" + num2 + "=" + sum);  //concatinate print
     System.out.printf("%d + %d = %d", num1, num2, sum); //print in formated way
+    input.close();
 }
     
 }

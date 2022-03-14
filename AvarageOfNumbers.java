@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ProductNumbers {
+public class AvarageOfNumbers {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
@@ -13,12 +13,10 @@ public class ProductNumbers {
         System.out.print("Enter The 3rd Number: ");
         int num3 = input.nextInt();
 
-        int Pruduct = num1*num2*num3;
+        int Avg = (num1+num2+num3)/3;
 
-        System.out.printf("Pruduct of the numbers is = %d\n", Pruduct);
-
+        System.out.printf("Avarage is = %d", Avg);
+        
         input.close();
     }
-    
-    
 }
