@@ -10,8 +10,9 @@ public class Instance {
     public String getValue(){
         return myName;
     }
-
     public static void main(String[] args){
-        System.out.println("My Name = " );
+        Instance obj = new Instance();
+        obj.setValue("Nuwan");
+        System.out.println("My Name = "+ obj.getValue());
     }
 }

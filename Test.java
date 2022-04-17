@@ -23,5 +23,14 @@ class Test {
     // public void main(String[] args) {
         
     // }
+    public static void main(String[] args){
+        String name = "Nuwan";
+        System.err.printf("Name = %s\n",name.toUpperCase());
+        System.err.printf("Name = %s\n",name.toLowerCase());
+
+        int x = 10;
+        float y = x;
+        System.out.printf("%.3f",y);
+    }
 
 }
