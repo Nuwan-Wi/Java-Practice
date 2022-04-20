@@ -16,6 +16,10 @@ public class AccountTest {
 
         System.out.printf("Name in  object myAccount is %s.", myAccount.getName()); // get output
 
+        // Create two object that provide paramiters
+        Account account1 = new Account();
+        Account account2 = new Account();
+
         input.close(); // close clanner object
 
     }
